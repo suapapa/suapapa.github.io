@@ -114,7 +114,8 @@ h6 {
 .icons {
     list-style: disc;
     margin: 0 0 1.5em 0;
-    padding-left: 1em}
+    /* padding-left: 1em */
+}
 .icon {
     padding-left: .5em} */
 .icon {
