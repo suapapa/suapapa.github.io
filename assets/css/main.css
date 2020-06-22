@@ -221,7 +221,7 @@ span.menu:hover {
     left: -2em;
     width: calc(100% + 4em)}
 .icons {
-    width: 80%;
+    line-height: normal;
     margin: 0 auto}
 .icon {
     display: inline-block;
