@@ -185,7 +185,7 @@ span.menu:hover {
     min-width: 27em;
     max-height: 600px;
     min-height: 500px;
-    padding: 4.5em 3em 3em 3em;
+    padding: 3em 3em 3em 3em;
     background: #fff;
     border-radius: 10px;
     cursor: default;
@@ -216,13 +216,12 @@ span.menu:hover {
     #main {
     min-width: 0;
     width: 80%;
-    padding: 4em 2em 2.5em 2em}
+    padding: 3em 2em 2em 2em}
 #main .character:before {
     left: -2em;
     width: calc(100% + 4em)}
 .icons {
     width: 80%;
-    max-width: 200px;
     margin: 0 auto}
 .icon {
     display: inline-block;
