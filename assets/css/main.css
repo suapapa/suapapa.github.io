@@ -131,7 +131,7 @@ h6 {
     width: 3.75em;
     height: 3.75em;
     border-radius: 100%;
-    border: solid 1px #c8cccf;
+    border: solid 1px #313f47;
     line-height: 3.75em;
     text-align: center;
     white-space: nowrap}
@@ -153,7 +153,8 @@ h6 {
     font-weight: 400;
     text-transform: none!important}
 .icon a:before {
-    color: #fff;
+    /* color: #fff; */
+    color: #313f47;
     text-shadow: 1.25px 0 0 #c8cccf,-1.25px 0 0 #c8cccf,0 1.25px 0 #c8cccf,0 -1.25px 0 #c8cccf}
 .icon a:hover:before {
     text-shadow: 1.25px 0 0 #e89061,-1.25px 0 0 #e89061,0 1.25px 0 #e89061,0 -1.25px 0 #e89061}
@@ -186,11 +187,20 @@ span.menu:hover {
     max-height: 600px;
     min-height: 500px;
     padding: 3em 3em 3em 3em;
+    cursor: default;
+    text-align: center}
+#background {
     background: #fff;
     border-radius: 10px;
-    cursor: default;
-    opacity: .95;
-    text-align: center}
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    z-index: -1;
+}
+
 #main .character {
     position: relative;
     display: block;
@@ -200,8 +210,10 @@ span.menu:hover {
     height: 141px;
     display: block;
     margin: 0 auto;
-    box-shadow: 0 0 0 1.5em #fff;
-    background: #fff}
+    /* box-shadow: 0 0 0 1.5em #ffffff00; */
+    /* box-shadow: 0 0 0 1.5em #fff; */
+    /* background: #fff */
+}
 #main .character:before {
     content: '';
     display: block;
